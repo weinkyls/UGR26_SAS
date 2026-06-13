@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #include <Arduino.h>
 
 // put function declarations here:
@@ -15,4 +16,12 @@ void loop() {
 // put function definitions here:
 int myFunction(int x, int y) {
   return x + y;
+=======
+#include "blinky.h"
+
+int main(void) {
+  blinky();
+  
+  return 0;
+>>>>>>> Stashed changes
 }
