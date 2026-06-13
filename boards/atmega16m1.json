@@ -1,0 +1,18 @@
+{
+  "build": {
+    "f_cpu": "16000000L",
+    "hwids": [],
+    "mcu": "atmega16m1"
+  },
+  "frameworks": [],
+  "platforms": [
+    "atmelavr"
+  ],
+  "name": "ATmega16M1",
+  "upload": {
+    "maximum_ram_size": 1024,
+    "maximum_size": 16384
+  },
+  "url": "https://www.microchip.com",
+  "vendor": "Atmel"
+}
