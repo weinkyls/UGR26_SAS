@@ -4,13 +4,13 @@
 // used to test flashing
 
 void blinky(){
-    DDRB |= (1 << PB4);
+    DDRB |= (1 << PB6);
 
     while(1){
-        PORTB |= (1 << PB4);
+        PORTB |= (1 << PB6);
         _delay_ms(1000);
         
-        PORTB &= ~(1 << PB4);
+        PORTB &= ~(1 << PB6);
         _delay_ms(1000);
     }
 }
