@@ -1,18 +1,15 @@
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
+#include <Arduino.h>
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
-}
+int main(void) {
+    init(); // configures standard arduino timers, due to arduino's own main() func
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
+    // Your setup code here
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+    while(1) {
+        // Your loop code here
+    }
+    
+    return 0;
 }
