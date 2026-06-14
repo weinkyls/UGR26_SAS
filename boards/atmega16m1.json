@@ -2,7 +2,7 @@
   "build": {
     "f_cpu": "16000000L",
     "hwids": [],
-    "mcu": "atmega16m1"
+    "mcu": "atmega32m1"
   },
   "frameworks": [],
   "platforms": [
